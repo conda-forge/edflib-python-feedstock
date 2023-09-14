@@ -1,5 +1,5 @@
 {% set name = "EDFlib-Python" %}
-{% set version = "1.0.7" %}
+{% set version = "1.0.8" %}
 
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/EDFlib-Python-{{ version }}.tar.gz
-  sha256: 81f671a69876d0ea8b62da3139615c39512d108e5097981c5e1b6e30b691acb8
+  sha256: 42de3b7980809f37fcc44e3cddc837a3237b69b937a81335dd1f9ffaaf3f2e19
 
 build:
   number: 0
